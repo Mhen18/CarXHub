@@ -1,0 +1,207 @@
+#title {
+    background-color: #000000;
+    font-style: italic;
+
+  }
+  
+  .container-fluid {
+    padding: 3% 15% 9%;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  h2
+  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.3;
+    color: rgb(201, 166, 166);
+  }
+  
+  .lambo {
+    width: 800px;
+    position: absolute;
+    left: -10%;
+    height: 400px;
+  }
+  
+  
+  @media (max-width: 1028px) {
+  
+  body {
+    text-align: center;
+  }
+  
+  
+    .lambo {
+      width: 300px;
+      height: 130px;
+      position: static;
+      transform: rotate(0deg);
+    }
+  
+  }
+  
+  
+  .navigation {
+    margin-bottom: 60px;
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  .navbar {
+    padding-left: 0;
+  }
+  
+  .CarXHub {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  /* Features */
+  #features {
+    text-align: center;
+    background-color: color-mix(in lch shorter hue, color percentage, color percentage);
+    position: relative;
+  }
+  
+  .f1 {
+    margin-bottom: 100px;
+  }
+  
+  .fas {
+    font-size: 4rem;
+    color: #ef8172;
+    margin-bottom: 10px;
+  }
+  
+  .fas:hover {
+    color: #ff4c68;
+  }
+  
+  .fontf {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .pf {
+    color: rgb(173, 24, 24);
+    width: 60%;
+    margin: auto;
+  }
+  
+  .forthefeatures {
+    padding-top: 150px;
+    margin-bottom: 100px;
+  }
+  
+  
+  /* Testimonial Sections */
+  
+  
+  
+  #testimonials {
+  
+    text-align: center;
+    background-color: #000000;
+    color: rgb(0, 0, 0)
+  }
+  
+  .carousel-item {
+      padding: 7% 15%;
+  }
+  
+  
+  
+  .testimonial-image{
+    width: 70%;
+    height: 70%;
+  }
+  
+  
+  
+  #press{
+    background-color:hsl(0, 0%, 0%);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin:20px 20px 50px;
+  }
+  
+  
+  /* Pricing */
+  
+  #pricing{
+    align-items: center;
+    padding-left: 31px;
+    padding: 150px;
+    text-align: center;
+  }
+  
+  .padding-column {
+    align-items: center;
+    right: -3%;
+  }
+  
+  
+  /* Call to Action */
+  
+  #cta {
+  text-align: center;
+  padding: 9% 19%;
+  background-color: #000000;
+  }
+  
+  
+  .ctah3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  .ctabtn {
+   margin-top: 5%;
+   margin-left: 2%;
+  }
+  
+  
+  /* Footer */
+  
+  
+  #footer {
+   text-align: center;
+  padding: 5% 10%;
+  }
+  
+  .copyright {
+    color: grey;
+  }
+  
+  
+  .footericon {
+    margin-left: 1%;
+    padding-bottom:2%;
+  }
